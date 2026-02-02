@@ -58,7 +58,7 @@ const GraficoVendas = ({ data }: { data: IVenda[] }) => {
         />
         <Line
           type="monotone"
-          dataKey="falho"
+          dataKey="falha"
           stroke="#000000"
           strokeWidth={3}
         />
